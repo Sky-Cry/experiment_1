@@ -1,0 +1,354 @@
+.topheading {
+    position: fixed;
+    width: 98.8vw;
+    height: 4.5vw;
+    background-color: rgb(230, 161, 12);
+    border: 1px solid rgb(230, 161, 12);
+    border-radius: 1.2vw;
+    z-index: 1;
+}
+
+/*******搜索框*******/
+.container {
+    position: absolute;
+    top: 14%;
+    right: 0%;
+    height: 70px;
+    width: 800px;
+}
+
+.parent {
+    position: relative;
+}
+
+.search {
+    width: 300px;
+    height: 40px;
+    border-radius: 18px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding-left: 20px;
+    position: absolute;
+}
+
+.btn {
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    background: url(../img/search.jpg) no-repeat;
+    background-size: 80%;
+    top: 6px;
+    left: 285px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/********************/
+
+.top {
+    position: absolute;
+    top: 4.5vw;
+    left: 10vw;
+    width: 80vw;
+    height: 29.2vw;
+    background: url(../img/top.jpg) no-repeat scroll;
+    background-size: 100%;
+}
+
+
+
+.mid {
+    position: absolute;
+    top: 29.2vw;
+    left: 10vw;
+    width: 80vw;
+    height: 49.6vw;
+    background: url(../img/mid.png) no-repeat scroll;
+    background-size: 100%;
+}
+
+.bottom {
+    position: absolute;
+    left: 10vw;
+    top: 78.8vw;
+    width: 80vw;
+    height: 80vw;
+    background: url(../img/bottom.png) no-repeat scroll;
+    background-size: 100%;
+}
+
+.foot{
+    width: 98.8vw;
+    height: 5vw;
+    position: fixed;
+    top: 41vw;
+    background: url(../img/foot.png) repeat-x scroll;
+    background-size: 20%;
+    z-index: 1;
+}
+
+
+/*
+.index{
+    width: 8vw;
+    height: 4vw;
+    background: url(../img/index.png) no-repeat scroll;
+    background-size: 100%;
+    position: absolute;
+    left: 0vw;
+}
+.index:hover{
+    background: url(../img/index_1.png) no-repeat scroll;
+    background-size: 100%;
+}
+.about{
+    width: 8vw;
+    height: 4vw;
+    background: url(../img/about.png) no-repeat scroll;
+    background-size: 100%;
+    position: absolute;
+    left: 8vw;
+}
+.about:hover{
+    background: url(../img/about_1.png) no-repeat scroll;
+    background-size: 100%;
+}
+.comm{
+    width: 8vw;
+    height: 4vw;
+    background: url(../img/comm.png) no-repeat scroll;
+    background-size: 100%;
+    position: absolute;
+    left: 16vw;
+}
+.comm:hover{
+    background: url(../img/comm_1.png) no-repeat scroll;
+    background-size: 100%;
+}
+.conn{
+    width: 8vw;
+    height: 4vw;
+    background: url(../img/conn.png) no-repeat scroll;
+    background-size: 100%;
+    position: absolute;
+    left: 24vw;
+}
+.conn:hover{
+    background: url(../img/conn_1.png) no-repeat scroll;
+    background-size: 100%;
+}
+*/
+
+
+.video {
+    margin-top: 15%;
+    margin-left: 10%;
+    float: left;
+    width: 50%;
+}
+
+.introduction {
+    width: 27%;
+    color: black;
+    text-indent: 2em;
+    font-size: 1.1vw;
+    margin-top: 10%;
+    margin-right: 6%;
+    float: right;
+    line-height: 1.5em;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+/**************************************************************/
+
+
+
+/*******************云彩飘动效果*********************/
+.cloud1 {
+    position: absolute;
+    top: 7%;
+    width: 16%;
+    animation: float1 4s infinite alternate;
+}
+
+.cloud2 {
+    position: absolute;
+    top: 21%;
+    width: 20%;
+    animation: float2 3s infinite alternate;
+}
+
+.cloud3 {
+    position: absolute;
+    top: 40%;
+    width: 16%;
+    animation: float3 4s infinite alternate;
+}
+
+.cloud4 {
+    position: absolute;
+    top: 54%;
+    width: 20%;
+    animation: float4 5s infinite alternate;
+}
+
+.cloud5 {
+    position: absolute;
+    top: 70%;
+    width: 16%;
+    animation: float5 3s infinite alternate;
+}
+
+.cloud6 {
+    position: absolute;
+    top: 21%;
+    width: 20%;
+    animation: float6 4s infinite alternate;
+}
+
+.cloud7 {
+    position: absolute;
+    top: 40%;
+    width: 20%;
+    animation: float7 4s infinite alternate;
+}
+
+.cloud8 {
+    position: absolute;
+    top: 59%;
+    width: 20%;
+    animation: float8 3s infinite alternate;
+}
+
+.cloud9 {
+    position: absolute;
+    top: 43%;
+    width: 12%;
+    animation: float9 5s infinite alternate;
+}
+
+.cloud10 {
+    position: absolute;
+    top: 55%;
+    width: 12%;
+    animation: float10 5s infinite alternate;
+}
+
+.cloud11 {
+    position: absolute;
+    top: 78%;
+    width: 16%;
+    animation: float11 3s infinite alternate;
+}
+
+@keyframes float1 {
+    from {
+        left: 25vw;
+    }
+
+    to {
+        left: 35vw;
+    }
+}
+
+@keyframes float2 {
+    from {
+        left: 10vw;
+    }
+
+    to {
+        left: 18vw;
+    }
+}
+
+@keyframes float3 {
+    from {
+        left: 20vw;
+    }
+
+    to {
+        left: 6vw;
+    }
+}
+
+@keyframes float4 {
+    from {
+        left: 10vw;
+    }
+
+    to {
+        left: 5vw;
+    }
+}
+
+@keyframes float5 {
+    from {
+        left: 20vw;
+    }
+
+    to {
+        left: 28vw;
+    }
+}
+
+@keyframes float6 {
+    from {
+        left: 50vw;
+    }
+
+    to {
+        left: 60vw;
+    }
+}
+
+@keyframes float7 {
+    from {
+        left: 55vw;
+    }
+
+    to {
+        left: 65vw;
+    }
+}
+
+@keyframes float8 {
+    from {
+        left: 55vw;
+    }
+
+    to {
+        left: 60vw;
+    }
+}
+
+@keyframes float9 {
+    from {
+        left: 30vw;
+    }
+
+    to {
+        left: 35vw;
+    }
+}
+
+@keyframes float10 {
+    from {
+        left: 48vw;
+    }
+
+    to {
+        left: 38vw;
+    }
+}
+
+@keyframes float11 {
+    from {
+        left: 65vw;
+    }
+
+    to {
+        left: 75vw;
+    }
+}
